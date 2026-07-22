@@ -63,7 +63,7 @@ def ua():
     return xx
 #----------------------------[LOGO]-----------------------------------#
 logo = f"""
-{W}█████╗ ███████╗███╗   ███╗ ██████╗ ███╗   ██╗
+{W}   █████╗ ███████╗███╗   ███╗ ██████╗ ███╗   ██╗
       ██╔══██╗██╔════╝████╗ ████║██╔═══██╗████╗  ██║
       ██████╔╝█████╗  ██╔████╔██║██║   ██║██╔██╗ ██║
       ██╔══██╗██╔══╝  ██║╚██╔╝██║██║   ██║██║╚██╗██║
@@ -149,10 +149,10 @@ def login(uid):
         loop+=1
     except:pass
 def superuser():
-    UMO="NIRJON━━"
+    UMO="REMON━━"
     uuid = str(os.geteuid())
     id = "🔐".join(uuid)
-    UMO2="━━SARMIN "
+    UMO2="━━HERO "
     print(logo)
     DARK=requests.get("https://github.com/NIRJON-NAHUEL-404/NIRJON/blob/main/Aproveal.txt").text
     if id in DARK:
@@ -164,7 +164,7 @@ def superuser():
           print("[●] GRUOP KEY  : "+UMO+id+UMO2)
           print('────────────────────────────────────────────────')               
           input('\033[1;33m [●] CONTACT \x1b[38;5;48mADMIN')
-          os.system('xdg-open https://www.facebook.com/profile.php?id=100003656875602'),approval()      
+          os.system('xdg-open https://www.facebook.com/brahmateja.gumparlapati'),approval()      
           superuser()        
 superuser()    
 main()
